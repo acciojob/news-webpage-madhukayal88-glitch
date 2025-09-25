@@ -1,16 +1,88 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+  <meta charset="UTF-8">
+  <title>Basic News Webpage</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
 
+    .header {
+      background-color: #011e29;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .latest-news-section {
+      background-color: #f5f5f5;
+      padding: 20px;
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    .latest-news-section h2 {
+      color: #011e29;
+      margin-bottom: 10px;
+    }
+
+    .latest-news-section ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    .latest-news-section li {
+      margin-bottom: 8px;
+      color: #333;
+    }
+
+    .pictorial-news-section {
+      background-color: #ffffff;
+      padding: 20px;
+      width: 80%;
+      margin: 20px auto;
+      text-align: center;
+      border-radius: 10px;
+    }
+
+    .pictorial-news-section h3 {
+      color: #011e29;
+      margin-bottom: 15px;
+    }
+
+    .pictorial-news-section img {
+      width: 250px;
+      height: auto;
+      margin: 10px;
+      border-radius: 6px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <header class="header">
+    <h1>Global News Daily</h1>
+  </header>
+
+  <div class="latest-news-section">
+    <h2>Latest News</h2>
+    <ul>
+      <li>Government announces new infrastructure plan for rural areas.</li>
+      <li>Tech companies unveil AI-powered tools at global summit.</li>
+      <li>Sports: National team qualifies for international championship.</li>
+    </ul>
+  </div>
+
+  <div class="pictorial-news-section">
+    <h3>Pictorial News</h3>
+    <img src="Image_one" alt="News Image One">
+    <img src="Image_two" alt="News Image Two">
+    <img src="Image_three" alt="News Image Three">
+  </div>
 
 </body>
-
 </html>
