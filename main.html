@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Basic News Webpage</title>
+  <style>
+    body {
+      background-color: #f5f5f5;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .header {
+      background-color: #011e29;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .latest-news-section {
+      background-color: #011e29;
+      width: 300px;
+      margin: 20px auto;
+      padding: 15px 20px;
+      border-radius: 5px;
+      color: white;
+    }
+
+    .latest-news-section h2 {
+      margin-top: 0;
+      font-weight: normal;
+      font-size: 22px;
+    }
+
+    .latest-news-section ul {
+      list-style-type: none;
+      padding-left: 0;
+      margin: 10px 0 0 0;
+    }
+
+    .latest-news-section li {
+      padding: 8px 0;
+      border-bottom: 1px solid #05475e;
+    }
+
+    .latest-news-section li:last-child {
+      border-bottom: none;
+    }
+
+    .pictorial-news-section {
+      background-color: white;
+      max-width: 820px;
+      margin: 40px auto;
+      padding: 20px;
+      border-radius: 6px;
+      text-align: center;
+      box-shadow: 0 0 10px #ccc;
+    }
+
+    .pictorial-news-section h3 {
+      margin-top: 0;
+      font-weight: normal;
+      color: #011e29;
+    }
+
+    .pictorial-news-container {
+      display: flex;
+      justify-content: space-between;
+      gap: 15px;
+      margin-top: 15px;
+    }
+
+    .news-item {
+      width: 260px;
+      text-align: left;
+    }
+
+    .news-item img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      display: block;
+    }
+
+    .news-item p {
+      margin: 8px 0 0 0;
+      font-size: 14px;
+      color: #333;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <h1>News Brief</h1>
+  </header>
+
+  <div class="latest-news-section">
+    <h2>Latest News</h2>
+    <ul>
+      <li>Delhi faces heavy rainfall disruption</li>
+      <li>Adani Group surges in India market</li>
+      <li>France debates pension reform protests</li>
+    </ul>
+  </div>
+
+  <div class="pictorial-news-section">
+    <h3>Pictorial News</h3>
+    <div class="pictorial-news-container">
+      <div class="news-item">
+        <img src="https://images.hindustantimes.com/img/2023/01/29/550x309/delhi_rains_1674974112847_1674981888135_1674981888135.jpeg"
+          alt="Delhi Rains" />
+        <p>Delhi faces heavy rainfall disruption</p>
+      </div>
+      <div class="news-item">
+        <img src="https://images.hindustantimes.com/img/2023/01/29/550x309/ADANI-INDIA-GAUTAM-ADANI-0_1675011651023_1675011651023_1675011672003_1675011672003.JPG"
+          alt="Adani India" />
+        <p>Adani Group surges in India market</p>
+      </div>
+      <div class="news-item">
+        <img src="https://images.hindustantimes.com/img/2023/01/29/550x309/FRANCE-REFORM-PENSIONS-31_1675022359706_1675022359706_1675022383851_1675022383851.JPG"
+          alt="France Reform Pensions" />
+        <p>France debates pension reform protests</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
